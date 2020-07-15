@@ -5,7 +5,7 @@ class FlexBox extends Component {
   render() {
     return (
       <View>
-        <View
+        {/* <View
           style={{
             backgroundColor: '#f7f1e3',
             flexDirection: 'row',
@@ -29,7 +29,7 @@ class FlexBox extends Component {
           <Text>Pemesanan </Text>
           <Text>Pembayaran</Text>
           <Text>Tentang</Text>
-        </View>
+        </View> */}
 
         <View
           style={{
@@ -43,19 +43,19 @@ class FlexBox extends Component {
             source={{
               uri:
                 'https://pbs.twimg.com/profile_images/1261933876261212160/54-JA3dq_400x400.jpg',
-              width: 100,
-              height: 100,
+              width: 140,
+              height: 140,
             }}
-            style={{borderRadius: 50}}
+            style={{borderRadius: 140 / 2}}
           />
           <View style={{marginLeft: 20}}>
-            <Text style={{fontSize: 20, fontWeight: 'bold', color: '#fff'}}>
+            <Text style={{fontSize: 30, fontWeight: 'bold', color: '#fff'}}>
               Afrizal Bagas
             </Text>
-            <Text style={{color: '#d1ccc0'}}>@afrzlbgss</Text>
+            <Text style={{color: '#d1ccc0', fontSize: 25}}>@afrzlbgss</Text>
             <View style={{flexDirection: 'row'}}>
-              <Text style={{color: '#d1ccc0'}}>200 Follower</Text>
-              <Text style={{color: '#d1ccc0', marginLeft: 5}}>
+              <Text style={{color: '#d1ccc0', fontSize: 20}}>200 Follower</Text>
+              <Text style={{color: '#d1ccc0', fontSize: 20, marginLeft: 10}}>
                 100 Following
               </Text>
             </View>
